@@ -1,0 +1,33 @@
+{
+  "name": "scrabbleware",
+  "version": "0.1.0",
+  "description": "A diceware-like passphrase generator using Scrabble wordlists",
+  "main": "dist/scrabbleware.js",
+  "scripts": {
+    "test": "tape test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bdchauvette/scrabbleware.git"
+  },
+  "keywords": [
+    "password",
+    "passphrase",
+    "diceware",
+    "scrabble"
+  ],
+  "author": "Ben Chauvette <bdchauvette@gmail.com> (https://github.com/bdchauvette)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^5.8.21",
+    "babel-plugin-object-assign": "^1.2.1",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.2.0",
+    "sinon": "^1.15.4",
+    "tape": "^4.0.3"
+  },
+  "dependencies": {
+    "crypto-rand": "0.0.2",
+    "performance-now": "^0.2.0"
+  }
+}
